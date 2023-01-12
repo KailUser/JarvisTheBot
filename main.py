@@ -6,7 +6,15 @@ intents.message_content = True
 
 client = commands.Bot(command_prefix = 'U!', intents=intents)
 
+meme_list = [
+    "https://i.imgflip.com/1jwhww.jpg",
+    "https://i.imgflip.com/1bij.jpg",
+    "https://i.imgflip.com/2/20b1g5.jpg"
+]
 
+@client.command()
+async def meme(ctx):
+    await ctx.send(random.choice(meme_list))
 
 
 @client.event
