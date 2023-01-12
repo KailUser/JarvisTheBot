@@ -77,4 +77,4 @@ async def clear(ctx, amount: int):
         await ctx.send(f'{amount} messages have been deleted.')
     else:
         await ctx.send("You do not have permission to use this command.")
-client.run('OTk5MjI3OTk5MjY0MTk0NjYw.GtsDl3.XOCYNi5I-PvuXhHKHBj0BOdN7MIiDf48UwkcJ0')
+client.run('')
